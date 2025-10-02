@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BJ - Produtos</title>
 
-      <link rel="icon" href="../Bolos-Do-Jacquin/assets/imgs/cake.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+    <link rel="icon" href="../Bolos-Do-Jacquin/assets/imgs/cake.png">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,6 +20,10 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -58,9 +66,35 @@
 
         </div>
     </header>
-    
+
     <main>
-        <section class="banner"></section>
+        <!-- <section class="banner"></section> -->
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/assets/imgs/banner.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/banner2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/banner3.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
         <section class="container">
             <h1 class="acessivel">Produtos de Chocolate</h1>
             <div class="titulo">
@@ -74,46 +108,50 @@
                     <h2>Chocolate belga</h2>
                     <p>Bolo macio de chocolate, aplicando granulado que traz crocância e um sabor irresistível.</p>
                     <span>R$ 80,00/Kg</span>
-                 </div>
+                </div>
 
                 <div class="card">
                     <img src="./assets/imgs/choc-ninho.png" alt="Uma fatia de bolo de chocolate com ninho">
                     <h2>Chocolate com ninho</h2>
                     <p>Bolo macio de chocolate com creme de leite ninho, um sabor irresistível. </p>
                     <span>R$ 90,00/Kg</span>
-                 </div>
+                </div>
 
                 <div class="card">
                     <img src="./assets/imgs/cenoura-choc.png" alt="Uma fatia de bolo de cenoura com chocolate ">
                     <h2>Cenoura com Chocolate</h2>
                     <p>Bolo macio de cenoura com cobertura de chocolate, um sabor irresistível.</p>
                     <span>R$ 70,00/Kg</span>
-                 </div>
+                </div>
 
                 <div class="card">
-                    <img src="./assets/imgs/choc-ninho-morango.png" alt="Uma fatia de bolo de ninho com morango e cobertura de chocolate">
+                    <img src="./assets/imgs/choc-ninho-morango.png"
+                        alt="Uma fatia de bolo de ninho com morango e cobertura de chocolate">
                     <h2>Ninho com Morango</h2>
                     <p>Bolo macio de chocolate com recheio de leite ninho e morango. Um sabor irresistível.</p>
                     <span>R$ 105,00/Kg</span>
-                 </div>
+                </div>
 
                 <div class="card">
                     <img src="./assets/imgs/choc-pistache.png" alt="Uma fatia de bolo de chocolate com pistache">
                     <h2>Chocolate com Pistache</h2>
                     <p>Bolo macio de chocolate com recheio de pistache, um sabor irresistível.</p>
                     <span>R$ 120,00/Kg</span>
-                 </div>
+                </div>
 
                 <div class="card">
                     <img src="./assets/imgs/choc-oreo.png" alt="Uma fatia de bolo de chocolate com oreo">
                     <h2>Chocolate com Oreo</h2>
-                    <p>Bolo macio de chocolate, com creme delicado, recheio e cobertura de biscoitos recheados oreo, um sabor irresistível.</p>
+                    <p>Bolo macio de chocolate, com creme delicado, recheio e cobertura de biscoitos recheados oreo, um
+                        sabor irresistível.</p>
                     <span>R$ 100,00/Kg</span>
-                 </div>
+                </div>
             </section>
         </section>
 
-        <a class="whatsapp" href="https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20produto!" target="_blank" target="_blank">
+        <a class="whatsapp"
+            href="https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20produto!"
+            target="_blank" target="_blank">
             <img src="./assets/whatsapp.png" alt="icone do whatsapp">
         </a>
     </main>
