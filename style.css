@@ -9,6 +9,19 @@ body{
     background-color: #fff6e8 ;
 }
 
+
+#sombra{
+    width: 100vw;
+    height: 200px;
+    background-color: #ffd18865;
+    position: fixed;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+    top: -210px;
+    overflow: hidden;
+}
+
+
 header{
     display: flex;
     background-color: #ffd188;
@@ -60,6 +73,19 @@ header{
     font-size: 1rem;
 
 }
+
+
+.menu_barras{
+    width: 50px;
+    color: #000000;
+    display: none;
+    z-index: 1;
+}
+
+
+
+
+
 
 /* BANNER */
 
@@ -183,6 +209,23 @@ header{
 
 
 /* MEDIA */
+@media screen and ( max-width: 768px) {
+    .icone_home{
+        display: none;
+    }
+    
+    .box_busca{
+        position: fixed;
+        top: -100px;
+        overflow: hidden;
+    }
+
+    .menu_barras{
+        display: block;
+    }
+
+}
+
 @media screen and ( max-width: 600px) {
  .banner{
     aspect-ratio: 2.0;
